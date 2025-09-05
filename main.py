@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect(r"practice.db")
+conn = sqlite3.connect(r"vendor.db")
 
 df = pd.read_sql_query("SELECT * FROM vendor", conn)
 
