@@ -3,7 +3,7 @@ import sqlite3
 
 
 #create dataframe
-df = pd.read_csv(r'C:\Users\DELL\OneDrive\Desktop\Razor Group\Case Study\practice.csv')
+df = pd.read_csv(r'vendor_data.csv')
 
 #covert frame to dictionary
 array_of_data = df.to_dict('records')
